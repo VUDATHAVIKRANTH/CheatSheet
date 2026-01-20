@@ -9,6 +9,10 @@
   ```
   sudo usermod -aG <groupname> user1
   ```
+  list the groups that are available
+  ```
+  getent group
+  ```
 2.change group owership of folder
   ```
   sudo chgrp <groupname> <path of shared folder>
